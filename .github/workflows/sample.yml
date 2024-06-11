@@ -1,0 +1,11 @@
+name: Github Actiosn Demo
+on: push
+jobs:
+  Example-Action-jon:
+    name: Exploring GitHub Actions
+    runs-on: ubuntu-latest
+    steps: 
+      - run: echo "Ths job's status is ${{job.status}}."
+    
+    
+    
